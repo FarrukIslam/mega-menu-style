@@ -1,0 +1,111 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Bridge Theme Child
+Template: bridge
+
+
+*/
+/* mega menu option */
+.ubermenu .ubermenu-nav{
+margin-top: 30px !important;
+}
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width {
+    left: 0;
+    width: 1161px !important;
+    top: 60px;
+    padding-bottom:40px;
+    padding-top:20px;
+}
+.ubermenu-skin-minimal .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target {
+    border-bottom: 0px solid transparent;
+    font-weight: normal;
+   
+}
+.ubermenu .ubermenu-autocolumn, .ubermenu .ubermenu-submenu-type-stack {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid #eee;
+
+}
+.ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target, .fa-stack-overflow:before {
+    content: "\f16c";
+    content: "\f105" !important;
+    padding-left: 10px !important;
+}
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header > .ubermenu-target {
+    color: #48484f !important;
+    font-weight: normal !important;
+    padding: 10px 20px !important;
+}
+header.scrolled nav.main_menu ul li a {
+    line-height: 20px !important;
+}
+.ubermenu-skin-minimal.ubermenu-responsive-toggle {
+    margin-top: 30px;
+}
+/* mega menu option style responsive */
+@media (min-width: 1024px) and (max-width: 1170px) {
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width {
+    left: 0;
+    width: 800px !important;
+    top: 60px;
+    padding-bottom:40px;
+    padding-top:20px;
+}
+}
+@media (max-width: 1024px) {
+.ubermenu-skin-minimal.ubermenu-responsive-toggle{
+display : none !important;
+}
+}
+
+
+
+
+/* contact form */
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.form-control {
+    border: 1px solid #5f5f60;
+    text-align: center;
+    display: block !important;
+    margin: 25px 0px;
+}
+input.wpcf7-form-control.wpcf7-text.form-control {
+    border: 1px solid #eee;
+    display: block !important;
+     text-align: left !important;
+}
+textarea.form-control {
+    text-align: left !important;
+    display: block !important;
+    margin-top: 16px !important;
+    border: 1px solid #ddd !important;
+}
+
+
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea {
+    text-align: center;
+    border: 1px solid #5f5f60 !important;
+}
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+    background-color: #b0b0b0 !important;
+    font-size: 16px !important;
+    width: 91% !important;
+    text-align: center;
+}
+.form_wrapper h4.title {
+    padding: 8px 0px !important;
+    display: inline-block;
+    height: 25px !important;
+    font-size: 17px !important;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-tel.form-control {
+    margin-bottom: 23px;
+}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.form-control {
+    border: 1px solid #5f5f60;
+    background: #fff url(http://www.perraworld.com/wp-content/uploads/2017/08/select-pointer-down.jpg) no-repeat 96% center;
+    color: #4d4d50;
+    font-size: 16px;
+    background-size: 30px;
+}
